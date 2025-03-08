@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux&family=Ephesis&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <span style="color: blue; width: 15%;">略<span style="color: black;">+01234 567 890</span></span>
+        <div class="line"></div>
+        <span style="width: 60%; margin-left: 20px;"><img src="./assets/icon2.png" >Jl. Patimura II No. 18, Denpasar</span>
+        <span><img src="./assets/icon3.png" alt="">Monday - Saturday: 9 am - 11.30 pm</span>
+    </nav>
+    <hr style="margin-top: 18px;"> 
+    <header>
+        <div class="logo">
+
+        </div>
+        <ul id="ul">
+            <li><a href="#" style="color: #3267FF;">Home </a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#">Page <i class="fa-solid fa-angle-down"></i> </a></li>
+            <li><a href="#"> Contact us</a></li>
+        </ul>
+        <div class="burger" onclick="showSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </div>
+
+        <div class="close" onclick="hideSidebar()" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#eee"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></div>
+
+        <button>Make an Appointment</button>
+        
+    </header>
+
+    <div class="container">
+        <div class="box1">
+            <div class="dentic">
+                <p>👋 Hey! We are Dentic </p>
+            </div>
+                <div class="dentic-box">
+                    <p>Helping You to
+                        Bring Back Your
+                        Happy Smile <img src="blink.png" alt="image" class="blink"></p> 
+                <div class="kutty-text">
+                  <p1>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+        natoque penatibus et magnis dis parturient.</p1>
+                </div>
+                </div>
+        
+        </div>
+        <div class="box2">
+            <img src="div.elementor-widget-wrap.png" alt="img" class="doctor">
+        </div>
+    </div>
+
+    <div class="carts">
+        <li>
+            <span><img src="gmail.png" style="margin-bottom: -4px;" alt=""> Email Address</span>
+            <input type="email" name="email " placeholder="Your Email">
+        </li>
+        <li>
+            <span><img src="call.png" style="margin-bottom: -4px;" alt=""> Phone Number</span>
+            <input type="text" name="number" placeholder="Telephone">
+        </li>
+        <li>
+            <span ><img src="calc.png" style="margin-bottom: -4px;" alt=""> Date </span>
+            <input type="date" name="date" placeholder="Date">
+        </li>
+        <button class="book-btn"><img src="./assets/sent.png" style="margin-bottom: -4px;" alt=""> <i class="fa-solid fa-paper-plane"></i>  Book Now</button>
+    </div>
+    <section>
+        <li>
+            <img src="dent.png" alt="">
+            <h3>Affordable Price</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <p> adipiscing elit. Ut elit tellus nec.</p>
+        </li>
+        <li>
+            <img src="dent2.png" alt="">
+            <h3>Professional Dentist</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <p>adipiscing elit. Ut elit tellus nec.</p>
+        </li>
+        <li>
+            <img src="dent3.png" alt="">
+            <h3>Satisfactory Service</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                <p>adipiscing elit. Ut elit tellus nec.</p>
+        </li>
+    </section>
+
+    <section class="hero">
+        <div class="image">
+            <img src="https://s3-alpha-sig.figma.com/img/2c05/1a4c/00931a266e0029e3db02fdb0ea4a65e5?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OrUpihKPxIJUKlCmgcYPbTvsKQU1MalFb-od3U9MuNy~Dx0UGLa74OvYPRvtlmMHipsOWEoA1QsHhstZFQ8q7cK8~ZOXnCxNXta-vBQn95w67dv9ZQE9E7HIeu7Q0QKcxc3xeFrB3~r3rf7d2kb73ASg62JkD6Mxb8Bc~Mw3-NGngMP63Se50pOlkMPQf7tNfdZx2QmAmwrAALLAyWiy01Py1Kpyq3xUUbQ0jjK7klYUYa8JV5eDhiMqDsS6WROeNCrQo2Vu2jeyBmkVsdq0NUh31oktaoQgGdhXsvV8cSyDn0K9zv87ei5dSHd5-mCFYk~KIuaeiKQgplgTJbPaCw__" alt="Dentist">
+        </div>
+        <div class="content1">
+            <button class="appointment">More About Us</button>
+            <h2>The Best Dental Clinic That You Can Trust</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                natoque penatibus et magnis dis parturient. <br> <br>Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
+            <ul>
+                <li>✅ Modern Equipment</li>
+                <li>✅ Easy Online Appointment</li>
+                <li>✅ Comfortable Clinic</li>
+                <li>✅ Always Monitored</li>
+            </ul>
+            <div class="buttons">
+                <button class="learn-more">Learn More</button>
+                <button class="appointment" style="width: 232px;padding: 10px;height: 54px;">Make an Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container2">
+        <div class="content2">
+            <button class="choose-btn">Why Choose Us</button>
+            <h1>Helping Your <br> Dental Problems</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Libero, commodi. Quam ratione, animi at tempora, inventore  <br> quo quos modi ab eveniet quasi eum voluptatibus.<p>
+            <div class="progress-container">
+                <p>Dental and Mouth Care <span>95%</span></p><br>
+                <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                <p>Cosmetic Treatment <span>87%</span></p><br>
+                <div class="progress-bar"><div class="progress" style="width: 87%;"></div></div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="https://s3-alpha-sig.figma.com/img/5ce6/b053/2aec7e53de060755da9a7a526b15463b?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pht3M8laawTo8kcWNJHtJHPSqJcQG2EzDLNBKfBgr1sKgIAg-rMqrBED~WT~RF3keIXogphmp2YHd0pysgooi8jDtb7EykdeUf342Wr08bzRrtphaD6xs7JkqqlCATo1w6oOwWueZVMNAtBdroxRP1JYF0PcCruyPSoO~Xo-w5zAz6efTis7XCqeCBcvxRlrjO~cjAiEhwhprDK-LhU7B6OT-eJYPUIQHtgDUAopNpdaxwMMIyMlfafcw~op7a6WZXIGY5WCPW98Lrk-yLwYjvKEbkPIsxjIFZgrKf816wsIhJ9R50-VNO0L9HqmXMAOY4SG0Fibkao~GO8fYx5txA__" alt="Doctor">
+        </div>
+        <div class="consultation-box">
+            <h2>Don't Hesitate to Do <br> Consultation</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul>
+                <li><strong>Monday - Friday</strong> <span>8AM - 10PM</span></li>
+                <li><strong>Saturday</strong> <span>8AM - 10PM</span></li>
+                <li><strong>Sunday</strong> <span>8AM - 10PM</span></li>
+            </ul>
+            <button class="call-btn">Call +01234 567 890</button>
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>
